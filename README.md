@@ -1,2 +1,2 @@
 # cuckoo-hashing
-implentation of cuckoo hash sorting in C++
+Two separate implementions to visualize cuckoo hashing in C++
