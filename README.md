@@ -12,4 +12,4 @@ Built With:
    SDL2
 
 How to Run:
-   Make and compile instructions for each half of the project are located in the readme files in the specific directory
+   Make and compile instructions for each half of the project are located in the specific directory's readme file
