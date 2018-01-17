@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B2BD3F92007EAEC00C6ED9B /* img in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B2BD3F82007EAEB00C6ED9B /* img */; };
+		9B2BD3FB2007EAF800C6ED9B /* resources in CopyFiles */ = {isa = PBXBuildFile; fileRef = 9B2BD3FA2007EAF800C6ED9B /* resources */; };
+		9B6049C22006E18C00191481 /* libSDL2_image-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6049C12006E18B00191481 /* libSDL2_image-2.0.0.dylib */; };
+		9B6049C42006E1BD00191481 /* libSDL2_ttf-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B6049C32006E1BD00191481 /* libSDL2_ttf-2.0.0.dylib */; };
+		9B70790720053693009BCC48 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9B70790620053693009BCC48 /* main.cpp */; };
+		9BE5D67E200539D000EB153B /* libSDL2-2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE5D67D200539D000EB153B /* libSDL2-2.0.0.dylib */; };
+		9BE5D6812005424F00EB153B /* cuckoo_hash.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BE5D67F2005424F00EB153B /* cuckoo_hash.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		9B2EFFC12007C1DD00AE80EC /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B70790120053693009BCC48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				9B2BD3FB2007EAF800C6ED9B /* resources in CopyFiles */,
+				9B2BD3F92007EAEC00C6ED9B /* img in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B2BD3F82007EAEB00C6ED9B /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		9B2BD3FA2007EAF800C6ED9B /* resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resources; sourceTree = "<group>"; };
+		9B6049BF2006E17700191481 /* sdl2_image */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sdl2_image; path = ../../../../usr/local/Cellar/sdl2_image; sourceTree = "<group>"; };
+		9B6049C12006E18B00191481 /* libSDL2_image-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_image-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2_image/2.0.2/lib/libSDL2_image-2.0.0.dylib"; sourceTree = "<group>"; };
+		9B6049C32006E1BD00191481 /* libSDL2_ttf-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2_ttf-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2_ttf/2.0.14/lib/libSDL2_ttf-2.0.0.dylib"; sourceTree = "<group>"; };
+		9B70790320053693009BCC48 /* Cuckoo_Hash */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "compiled.mach-o.executable"; path = Cuckoo_Hash; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B70790620053693009BCC48 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9BE5D67D200539D000EB153B /* libSDL2-2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libSDL2-2.0.0.dylib"; path = "../../../../usr/local/Cellar/sdl2/2.0.7/lib/libSDL2-2.0.0.dylib"; sourceTree = "<group>"; };
+		9BE5D67F2005424F00EB153B /* cuckoo_hash.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = cuckoo_hash.cpp; path = Cuckoo_Hash/cuckoo_hash.cpp; sourceTree = SOURCE_ROOT; };
+		9BE5D6802005424F00EB153B /* cuckoo_hash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cuckoo_hash.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B70790020053693009BCC48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B6049C42006E1BD00191481 /* libSDL2_ttf-2.0.0.dylib in Frameworks */,
+				9B6049C22006E18C00191481 /* libSDL2_image-2.0.0.dylib in Frameworks */,
+				9BE5D67E200539D000EB153B /* libSDL2-2.0.0.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B7078FA20053693009BCC48 = {
+			isa = PBXGroup;
+			children = (
+				9B2BD3FA2007EAF800C6ED9B /* resources */,
+				9B2BD3F82007EAEB00C6ED9B /* img */,
+				9B70790520053693009BCC48 /* Cuckoo_Hash */,
+				9B70790420053693009BCC48 /* Products */,
+				9BE5D67C200539CF00EB153B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B70790420053693009BCC48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B70790320053693009BCC48 /* Cuckoo_Hash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B70790520053693009BCC48 /* Cuckoo_Hash */ = {
+			isa = PBXGroup;
+			children = (
+				9B70790620053693009BCC48 /* main.cpp */,
+				9BE5D67F2005424F00EB153B /* cuckoo_hash.cpp */,
+				9BE5D6802005424F00EB153B /* cuckoo_hash.h */,
+			);
+			path = Cuckoo_Hash;
+			sourceTree = "<group>";
+		};
+		9BE5D67C200539CF00EB153B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B6049C32006E1BD00191481 /* libSDL2_ttf-2.0.0.dylib */,
+				9B6049C12006E18B00191481 /* libSDL2_image-2.0.0.dylib */,
+				9B6049BF2006E17700191481 /* sdl2_image */,
+				9BE5D67D200539D000EB153B /* libSDL2-2.0.0.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B70790220053693009BCC48 /* Cuckoo_Hash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B70790A20053693009BCC48 /* Build configuration list for PBXNativeTarget "Cuckoo_Hash" */;
+			buildPhases = (
+				9B7078FF20053693009BCC48 /* Sources */,
+				9B70790020053693009BCC48 /* Frameworks */,
+				9B70790120053693009BCC48 /* CopyFiles */,
+			);
+			buildRules = (
+				9B2EFFC12007C1DD00AE80EC /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = Cuckoo_Hash;
+			productName = Cuckoo_Hash;
+			productReference = 9B70790320053693009BCC48 /* Cuckoo_Hash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B7078FB20053693009BCC48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = nyu.edu;
+				TargetAttributes = {
+					9B70790220053693009BCC48 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9B7078FE20053693009BCC48 /* Build configuration list for PBXProject "Cuckoo_Hash" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9B7078FA20053693009BCC48;
+			productRefGroup = 9B70790420053693009BCC48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B70790220053693009BCC48 /* Cuckoo_Hash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B7078FF20053693009BCC48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B70790720053693009BCC48 /* main.cpp in Sources */,
+				9BE5D6812005424F00EB153B /* cuckoo_hash.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B70790820053693009BCC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9B70790920053693009BCC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9B70790B20053693009BCC48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG8FSVF436;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+					/usr/local/Cellar/sdl2_image/2.0.2/lib,
+					/usr/local/Cellar/sdl2_ttf/2.0.14/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B70790C20053693009BCC48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MG8FSVF436;
+				HEADER_SEARCH_PATHS = /usr/local/include;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/sdl2/2.0.7/lib,
+					/usr/local/Cellar/sdl2_image/2.0.2/lib,
+					/usr/local/Cellar/sdl2_ttf/2.0.14/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B7078FE20053693009BCC48 /* Build configuration list for PBXProject "Cuckoo_Hash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B70790820053693009BCC48 /* Debug */,
+				9B70790920053693009BCC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B70790A20053693009BCC48 /* Build configuration list for PBXNativeTarget "Cuckoo_Hash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B70790B20053693009BCC48 /* Debug */,
+				9B70790C20053693009BCC48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B7078FB20053693009BCC48 /* Project object */;
+}
